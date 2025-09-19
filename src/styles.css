@@ -1,6 +1,12 @@
 html, body {
     margin: 0;
     padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p, button {
@@ -24,4 +30,15 @@ textarea {
 
 button {
     cursor: pointer;
+}
+
+.dropdown {
+    border-radius: 10px;
+    background-color: rgb(192, 192, 192);
+    height: 40px;
+    width: 40px;
+}
+
+.dropdown-options {
+    
 }
